@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Nomor2.css">
+</head>
+<style>
+    html{
+        color : gray
+    } 
+    nav{
+        background-color: red;
+        width: 100%;
+        height: 40px;
+        display: flex;
+    }
+    header {
+        background-color: #8286c2;
+        width: 100%;
+        height :200px;
+        display:flex;
+        justify-content: center;
+    }
+    Article {
+        background-color: mediumseagreen;
+        width: 100%;
+        height :150px;
+        display:flex;
+        justify-content: center;
+    }
+    
+    grid-container {
+        display: grid; 
+        grid-template-columns: repeat(3, 1fr); 
+        grid-gap: 10px; 
+    }
+
+    Footer{
+        background-color: yellowgreen;
+        width: 100%;
+        height :150px;
+        display:flex;
+        justify-content: center;
+    }
+
+    .logo {
+        background-color:red;        
+    }
+</style>
+<body>
+    <nav><p style="text-indent:500px;">LOGO</p><p style="margin-left: auto; text-indent:-200px;">NAVIGATION</p></nav>
+    <header><p style="color:aqua; font-size:100px;">Header</p></header>
+    <article><p style="color:black; font-size:50px;">Article</p></article>
+    <grid-container>
+        <p class="grid-item1">Figure1</p>
+        <p class="grid-item2">Figure2</p>
+        <p class="grid-item3">Figure3</p>
+    </grid-container>
+    <Footer><p style="color:black; font-size:50px;">Footer</p></Footer>
+    </body>
+</html>
